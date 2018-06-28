@@ -1,27 +1,20 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <Layout/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Layout from "./views/Layout/Layout";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Layout
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less" src="./assets/styles/global.less">
+
 </style>
