@@ -8,31 +8,81 @@
       fixed
       prop="date"
       label="日期"
-      width="150">
+      width="120">
     </el-table-column>
     <el-table-column
       prop="name"
-      label="姓名"
-      width="120">
+      label="机台"
+      width="100">
     </el-table-column>
     <el-table-column
       prop="province"
-      label="省份"
-      width="120">
+      label="班次"
+      width="100">
     </el-table-column>
     <el-table-column
       prop="city"
-      label="市区"
+      label="姓名1"
       width="120">
     </el-table-column>
     <el-table-column
       prop="address"
-      label="地址"
-      width="300">
+      label="姓名2"
+      width="120">
     </el-table-column>
     <el-table-column
       prop="zip"
-      label="邮编"
+      label="验布类型"
+      width="100">
+    </el-table-column>
+    <el-table-column
+      prop="date"
+      label="产量标准*H"
+      width="100">
+    </el-table-column>
+    <el-table-column
+      prop="name"
+      label="特殊情况标准产量"
+      width="100">
+    </el-table-column>
+    <el-table-column
+      prop="province"
+      label="万码标准"
+      width="100">
+    </el-table-column>
+    <el-table-column
+      prop="city"
+      label="加工单"
+      width="120">
+    </el-table-column>
+    <el-table-column
+      prop="address"
+      label="颜色"
+      width="120">
+    </el-table-column>
+    <el-table-column
+      prop="zip"
+      label="产量"
+      width="240">
+      <el-table-column
+        prop="date"
+        label="好布"
+        width="80">
+      </el-table-column>
+      <el-table-column
+        prop="name"
+        label="次布"
+        width="80">
+      </el-table-column>
+      <el-table-column
+        prop="name"
+        label="退回"
+        width="80">
+      </el-table-column>
+    </el-table-column>    
+    <el-table-column
+      prop="province"
+      label="总产量"
       width="120">
     </el-table-column>
     <el-table-column

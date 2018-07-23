@@ -66,14 +66,14 @@ export default {
           name: "庆茂染色间",
           name_en: "Dyeing",
           icon: "el-icon-document",
-          router: "",
+          router: "1",
           children: []
         },
         {
           name: "庆茂冷染间",
           name_en: "Cpb Dyeing",
           icon: "el-icon-picture-outline",
-          router: "",
+          router: "2",
           children: []
         },
         {
@@ -81,7 +81,20 @@ export default {
           name_en: "Finishing",
           icon: "el-icon-menu",
           router: "/Finishing",
-          children: []
+          children: [
+            {
+              name: "验布工",
+              name_en: "验布工",
+              icon: "el-icon-menu",
+              router: "/Finishing/P1"
+            },
+            {
+              name: "包装领班",
+              name_en: "包装领班",
+              icon: "el-icon-menu",
+              router: "/Finishing/P2"
+            }
+          ]
         }
       ]
       // menu: localStorage.menu ? JSON.parse(localStorage.menu) : []
