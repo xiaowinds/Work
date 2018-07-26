@@ -6,7 +6,6 @@ import router from "./router";
 import axios from "axios";
 import Cookies from "js-cookie";
 import store from "./store";
-import VueParticles from "vue-particles";
 import i18n from "./lang"; // Internationalization
 import * as utils from "@/utils";
 // import "font-awesome/css/font-awesome.css";
@@ -24,7 +23,6 @@ Vue.prototype.$prompt = ElementUI.MessageBox.prompt;
 Vue.prototype.$notify = ElementUI.Notification;
 Vue.prototype.$message = ElementUI.Message;
 Vue.prototype.$axios = axios;
-Vue.use(VueParticles);
 
 // Vue 的全局配置
 Vue.config.productionTip = false;

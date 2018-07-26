@@ -18,7 +18,7 @@
                         <i class="fa fa-arrows-alt" title="切换全屏" @click="toggleFullscreen"></i>
                     </el-col>
                     <el-col :span="3">
-                        <i class="fa fa-sign-out logout" title="退出"></i>
+                        <i class="fa fa-sign-out logout" title="退出" @click="toMainPage"></i>
                     </el-col>
                 </el-row>
             </el-col>
@@ -58,6 +58,9 @@ export default {
         return false;
       }
       screenfull.toggle();
+    },
+    toMainPage() {
+      window.location.href = "http://www.winnitex.com/info3";
     }
   },
   watch: {
